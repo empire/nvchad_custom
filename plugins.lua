@@ -47,6 +47,13 @@ local plugins = {
     end,
   },
 
+  {
+    "NvChad/nvcommunity",
+    { import = "nvcommunity.git.diffview" },
+    { import = "nvcommunity.git.lazygit" },
+    { import = "nvcommunity.lsp.codeactionmenu" },
+  },
+
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
